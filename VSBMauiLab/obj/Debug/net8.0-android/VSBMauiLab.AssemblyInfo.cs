@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("VSBMauiLab")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+9140d2b14c0b1a0b3e15b09cf5819af4c21c0df9")]
 [assembly: System.Reflection.AssemblyProductAttribute("VSBMauiLab")]
 [assembly: System.Reflection.AssemblyTitleAttribute("VSBMauiLab")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

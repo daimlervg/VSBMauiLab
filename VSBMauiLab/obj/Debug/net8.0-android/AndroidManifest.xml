@@ -16,7 +16,7 @@
         <category android:name="android.intent.category.LAUNCHER" />
       </intent-filter>
     </activity>
-    <activity android:launchMode="singleInstance" android:noHistory="false" android:name="crc64253102134054932a.VisaSensoryBrandingActivity" />
+    <activity android:label="Visa" android:noHistory="true" android:name="crc64253102134054932a.VisaSensoryBrandingActivity" />
     <activity android:configChanges="orientation|screenSize" android:exported="false" android:name="crc6468b6408a11370c2f.WebAuthenticatorIntermediateActivity" />
     <provider android:authorities="com.companyname.vsbmauilab.fileProvider" android:exported="false" android:grantUriPermissions="true" android:name="microsoft.maui.essentials.fileProvider">
       <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/microsoft_maui_essentials_fileprovider_file_paths" />

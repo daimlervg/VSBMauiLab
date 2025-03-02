@@ -1061,3 +1061,4 @@
 /Users/Teledolar/Documents/Proyectos/VSBMauiLab/VSBMauiLab/obj/Debug/net8.0-android/android/assets/Microsoft.VisualStudio.DesignTools.MobileTapContracts.dll
 /Users/Teledolar/Documents/Proyectos/VSBMauiLab/VSBMauiLab/obj/Debug/net8.0-android/android/assets/Microsoft.VisualStudio.DesignTools.TapContract.dll
 /Users/Teledolar/Documents/Proyectos/VSBMauiLab/VSBMauiLab/obj/Debug/net8.0-android/android/assets/Microsoft.VisualStudio.DesignTools.XamlTapContract.dll
+/Users/Teledolar/Documents/Proyectos/VSBMauiLab/VSBMauiLab/obj/Debug/net8.0-android/VSBMauiLab.sourcelink.json
