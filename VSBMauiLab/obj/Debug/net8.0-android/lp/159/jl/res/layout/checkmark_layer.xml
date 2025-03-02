@@ -1,0 +1,20 @@
+<merge android:layout_width="match_parent" android:layout_height="match_parent" xmlns:tools="http://schemas.android.com/tools" xmlns:android="http://schemas.android.com/apk/res/android"><Space android:id="@+id/checkmark_top_spacer" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="15" /><ImageView android:id="@+id/checkmark_tick" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="160" android:importantForAccessibility="no" android:src="@drawable/checkmark_tick_vector" /><Space android:id="@+id/checkmark_space" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="20" /><TextView android:id="@+id/checkmark_text" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="46" android:clipChildren="false" android:gravity="center" android:includeFontPadding="false" tools:text="Approved" /><Space android:id="@+id/checkmark_bottom_spacer" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="9" /><!--Here the space:text ratio should be 30:30 from the design guide.
+        However:
+        1. The design guide does not consider below points:
+            1.1 The built-in top and bottom paddings of the font file itself.
+            1.2 Some language characters may exceed baseline (eg. p for approved).
+        2. The Android `includeFontPadding` property do not move all fonts' paddings, still have some spaces.
+        3. We need to make sure the font can be covered by our container, so we leverage
+           the autoSize feature instead of calculated by ourselves.
+        That's why we have to adjust them to 20:46 to increase the text container height,
+        and make the final looking(the text size versus logo) can be 99% same as the design.--><!--If you would like to change the ratio here, please change the total height ratio
+        in SensoryBrandingView as well.
+        val viewHeightToLogoHeightRatio = when(checkmarkMode) {
+            CheckmarkMode.NONE -> 1.0
+            CheckmarkMode.CHECKMARK -> 1.6
+            CheckmarkMode.CHECKMARK_WITH_TEXT -> 2.26  // REMEMBER TO CHANGE THIS
+            // 2.26 = 160% + 20% + 46%
+        }
+    --><!--iOS applied similar changes, the total height changed from 60% to 66%, but still kept ratio 30:36,
+        because the "padding-removal" mechanism is a bit different on 2 platforms. Our target is to
+        make it look like the design guide, so we will keep those the difference in 2 platforms.--></merge>

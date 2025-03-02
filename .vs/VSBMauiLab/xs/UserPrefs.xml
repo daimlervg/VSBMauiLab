@@ -1,0 +1,49 @@
+﻿<Properties StartupConfiguration="{E0C064B1-2CEB-42F4-BA6A-8E80AFF24F71}|Default">
+  <MonoDevelop.Ide.ItemProperties.VSBMauiLab PreferredExecutionTarget="Android.Pixel_4_API_34" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="VSBMauiLab/Platforms/Android/VisaSensoryBrandingActivity.cs">
+    <Files>
+      <File FileName="VSBMauiLab/MainPage.xaml.cs" />
+      <File FileName="VSBMauiLab/MainPage.xaml" />
+      <File FileName="VSBMauiLab/VSBMauiLab.csproj" />
+      <File FileName="VSBMauiLab/IVisaSensoryBranding.cs" />
+      <File FileName="VSBMauiLab/Platforms/Android/VisaSensoryBranding.cs" />
+      <File FileName="VSBMauiLab/Platforms/Android/VisaSensoryBrandingActivity.cs" Line="22" Column="28" />
+      <File FileName="VSBMauiLab/Platforms/Android/AndroidManifest.xml" />
+      <File FileName="VSBMauiLab/Platforms/Android/Resources/values/colors.xml" />
+      <File FileName="VSBMauiLab/Platforms/Android/MainApplication.cs" />
+      <File FileName="VSBMauiLab/Platforms/Android/MainActivity.cs" />
+      <File FileName="VSBMauiLab/Platforms/Android/Resources/layout/SensoryBrandingLayout.xml" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="VSBMauiLab" expanded="True">
+            <Node name="VSBMauiLab" expanded="True">
+              <Node name="Dependencies" expanded="True" />
+              <Node name="Platforms" expanded="True">
+                <Node name="Android" expanded="True">
+                  <Node name="Resources" expanded="True">
+                    <Node name="layout" expanded="True">
+                      <Node name="SensoryBrandingLayout.xml" selected="True" />
+                    </Node>
+                    <Node name="values" expanded="True" />
+                  </Node>
+                </Node>
+              </Node>
+              <Node name="Resources" expanded="True" />
+              <Node name="MainPage.xaml" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="Android.Pixel_4_API_34" />
+  <MonoDevelop.MonoDroid LastDeploySdkVersion="34.0.145" />
+  <MultiItemStartupConfigurations />
+</Properties>
